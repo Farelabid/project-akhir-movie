@@ -1,0 +1,27 @@
+name: sudutmovie
+description: Project Akhir Praktikum Mobile.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^5.1.0
+  http: ^1.2.1
+  carousel_slider: ^4.2.1
+  sqflite: ^2.0.0+3
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
